@@ -16,3 +16,21 @@ img {
   display: block;
   max-width: 100%;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: large;
+  color: rgb(117, 117, 117);
+  cursor: pointer;
+}
+a:hover {
+  color: rgb(31, 31, 31);
+}
