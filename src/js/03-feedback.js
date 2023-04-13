@@ -27,7 +27,8 @@ function onFormSubmit(evt) {
   if (emailInput.value === "" || messageInput.value === "") {
     return alert('Заповніть порожнє поле');
   }
-
+  
+  console.log(formData);
   evt.target.reset();
   localStorage.removeItem(STORAGE_KEY);
 }
